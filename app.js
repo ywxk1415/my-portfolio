@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  var STORAGE_KEY = 'maillard-portfolio.v1';
+  var STORAGE_KEY = 'maillard-portfolio.v2';
   var MIN_WORKS = 1;
   var MAX_WORKS = 8;
 
@@ -88,44 +88,44 @@
       brandMark: 'M',
       brand: 'Maillard Studio',
       greeting: '你好，我是',
-      name: '林知远',
+      name: '钟雨轩',
       role: '视觉设计师 · 品牌与编辑设计',
       intro: '专注品牌视觉与编辑设计，擅长把复杂的信息整理成克制、耐看的画面。目前以独立设计师身份，为文化、生活方式与咖啡烘焙领域的品牌工作。',
-      location: '上海 · 可远程协作'
+      location: '武汉 · 可远程协作'
     },
     worksIntro: '四组视觉设计项目，涵盖品牌识别、海报、插画与界面。每一组都从材料与色彩出发，先确定语气，再处理细节。',
     works: [
       {
-        title: '「暮色烘焙」品牌视觉识别',
-        category: '品牌识别',
-        year: '2024',
-        desc: '为一家社区咖啡烘焙工坊建立完整视觉系统，从标志、包装到门店物料，用焦糖色阶传递温度与手作感。',
+        title: '「虎头局」品牌视觉识别',
+        category: '海报设计',
+        year: '2025',
+        desc: '为一款烘焙甜点设计的宣传海报，从标志、包装到门店物料，用焦糖色阶传递温度与手作感。',
         tags: ['品牌识别', '包装', '字体'],
-        cover: ''
+        cover: 'assets/tiger-head-bakery.jpg'
       },
       {
-        title: '「慢下来」主题海报系列',
+        title: '「狼人杀」主题卡牌系列',
         category: '海报设计',
         year: '2023',
-        desc: '以大字排版与手写笔触构成的三张海报，讨论城市生活节奏与停顿之间的关系，套色限定为三色。',
-        tags: ['海报', '排版', '丝网印'],
-        cover: ''
+        desc: '将华丽复古的人物与暗黑童话相结合设计的12张卡牌，强调了天黑请闭眼这种夜晚集会、神秘仪式的游戏氛围。',
+        tags: ['卡牌', '排版', '人物'],
+        cover: 'assets/werewolf-cards.jpg'
       },
       {
-        title: '「陶土笔记」插画与出版物',
-        category: '插画 / 出版',
-        year: '2025',
-        desc: '为独立出版刊物绘制的十二幅系列插画，以陶土、赭石、石灰三种主色构成温和而连贯的叙事线索。',
-        tags: ['插画', '出版物', '色彩'],
-        cover: ''
+        title: '「昆曲」信息可视化',
+        category: '展板 / 非遗',
+        year: '2026',
+        desc: '以苏州地方特色文化昆曲为灵感，以陶土、赭石、棕褐三种主色构成温和而连贯的叙事线索。',
+        tags: ['非遗', '展板', '色彩'],
+        cover: 'assets/kunqu-infographic.jpg'
       },
       {
-        title: 'Lento 手冲咖啡 App 界面',
+        title: '二十四节气卡牌设计',
         category: '界面设计',
         year: '2026',
-        desc: '把点单流程压缩到三次点击，界面以米白为底、深棕为锚，尽可能保留手冲咖啡本身的仪式感。',
-        tags: ['UI', '移动端', '视觉规范'],
-        cover: ''
+        desc: '将二十四节气与花信风元素相结合，呈现出东方唯美、诗意与自然主义色彩。',
+        tags: ['卡牌', '文化', '人物'],
+        cover: 'assets/24-solar-terms-cards.jpg'
       }
     ],
     heroPanel: {
@@ -149,18 +149,18 @@
       contactEyebrow: 'Contact'
     },
     about: {
-      lead: '我是林知远，一名居住在上海的视觉设计师。',
-      body: '过去六年，我在品牌咨询公司与独立工作室之间来回，做过包装、画册、展览视觉和界面。我相信设计的价值不在信息量，而在秩序感——把要说的东西放对位置，让颜色与留白替它说话。',
+      lead: '我是钟雨轩，一名居住在武汉的视觉设计师。',
+      body: '近年来，我做过包装、画册、展览视觉和界面。我相信设计的价值不在信息量，而在秩序感——把要说的东西放对位置，让颜色与留白替它说话。',
       skills: ['品牌视觉', '编辑与排版', '包装设计', '插画', '界面设计'],
       stats: [
-        { num: '06', label: '年视觉设计经验' },
-        { num: '32', label: '个已落地项目' }
+        { num: '03', label: '年视觉设计经验' },
+        { num: '12', label: '个相关项目' }
       ]
     },
     contact: {
       title: '有项目想聊聊？',
       desc: '我目前接受品牌视觉、出版物与展览相关的合作邀约，通常会在两个工作日内回复。',
-      email: 'hello@linzhiyuan.design',
+      email: '15327205077@163.com',
       links: [
         { label: '站酷', href: 'https://www.zcool.com.cn' },
         { label: 'Behance', href: 'https://www.behance.net' },
@@ -168,7 +168,7 @@
       ]
     },
     footer: {
-      text: '© 2026 林知远 · 保留所有权利',
+      text: '© 2026 钟雨轩 · 保留所有权利',
       note: '点击右上角「编辑内容」即可修改文字与作品封面'
     }
   };
