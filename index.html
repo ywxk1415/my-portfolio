@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>林知远 · 视觉设计作品集</title>
+<meta name="description" content="视觉设计师林知远的个人作品集，收录品牌识别、海报、插画与界面设计项目。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%232B1A12'/><text x='50' y='70' font-size='56' text-anchor='middle' fill='%23D8B48C' font-family='Georgia,serif'>M</text></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" data-edit="profile.brandMark">M</span>
+      <span class="brand-text" data-edit="profile.brand">Maillard Studio</span>
+    </a>
+    <nav class="nav">
+      <a href="#works" data-edit="labels.navWorks">作品</a>
+      <a href="#about" data-edit="labels.navAbout">关于</a>
+      <a href="#contact" data-edit="labels.navContact">联系</a>
+    </nav>
+    <button class="btn btn-ghost" id="editToggle" type="button">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16v4Z"/><path d="M14.5 5.5 18.5 9.5"/></svg>
+      <span id="editToggleText">编辑内容</span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow" data-edit="labels.heroEyebrow">Visual Design Portfolio</p>
+        <h1 class="hero-title">
+          <span data-edit="profile.greeting">你好，我是</span>
+          <em data-edit="profile.name">林知远</em>
+        </h1>
+        <p class="hero-role" data-edit="profile.role">视觉设计师 · 品牌与编辑设计</p>
+        <p class="hero-desc" data-edit="profile.intro">专注品牌视觉与编辑设计，擅长把复杂的信息整理成克制、耐看的画面。目前以独立设计师身份，为文化、生活方式与咖啡烘焙领域的品牌工作。</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#works" data-edit="labels.btnWorks">查看作品</a>
+          <a class="btn btn-line" href="#contact" data-edit="labels.btnContact">聊聊合作</a>
+        </div>
+        <p class="hero-meta"><span class="dot-live"></span><span data-edit="profile.location">上海 · 可远程协作</span></p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-frame">
+          <div class="frame-glow"></div>
+          <svg class="frame-rings" viewBox="0 0 400 400" fill="none" aria-hidden="true">
+            <circle cx="200" cy="200" r="152" stroke="#EBD6B9" stroke-opacity=".26"/>
+            <circle cx="200" cy="200" r="112" stroke="#EBD6B9" stroke-opacity=".18"/>
+            <circle cx="200" cy="200" r="72" stroke="#EBD6B9" stroke-opacity=".12"/>
+            <circle cx="200" cy="200" r="30" fill="#D8B48C" fill-opacity=".9"/>
+          </svg>
+          <span class="frame-kicker" data-edit="heroPanel.kicker">Selected<br>Works</span>
+          <span class="frame-years" data-edit="heroPanel.years">2021 — 2026</span>
+          <span class="frame-sign" data-edit="heroPanel.sign">MMXXVI</span>
+          <div class="frame-grid"></div>
+        </div>
+        <div class="hero-chip">
+          <span class="chip-dot"></span>
+          <span data-edit="heroPanel.availability">现可接受新项目</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works -->
+  <section class="section works" id="works">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow" data-edit="labels.worksEyebrow">Selected Works</p>
+          <h2 class="section-title" data-edit="labels.worksTitle">精选作品</h2>
+        </div>
+        <div class="section-aside">
+          <p class="section-sub" data-edit="worksIntro">四组视觉设计项目，涵盖品牌识别、海报、插画与界面。每一组都从材料与色彩出发，先确定语气，再处理细节。</p>
+          <p class="section-count"><span id="workCount">04</span> <span data-edit="labels.worksCountLabel">Projects</span></p>
+        </div>
+      </div>
+
+      <div class="work-grid" id="workGrid"></div>
+
+      <div class="add-wrap" data-editor-only>
+        <button class="btn btn-line" id="addWorkBtn" type="button">+ 添加作品</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="wrap about-grid">
+      <div class="about-left">
+        <p class="eyebrow" data-edit="labels.aboutEyebrow">About</p>
+        <h2 class="section-title" data-edit="labels.aboutTitle">关于我</h2>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num serif" data-edit="about.stats.0.num">06</span>
+            <span class="stat-label" data-edit="about.stats.0.label">年视觉设计经验</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num serif" data-edit="about.stats.1.num">32</span>
+            <span class="stat-label" data-edit="about.stats.1.label">个已落地项目</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-right">
+        <p class="about-lead" data-edit="about.lead">我是林知远，一名居住在上海的视觉设计师。</p>
+        <p class="about-body" data-edit="about.body">过去六年，我在品牌咨询公司与独立工作室之间来回，做过包装、画册、展览视觉和界面。我相信设计的价值不在信息量，而在秩序感——把要说的东西放对位置，让颜色与留白替它说话。</p>
+        <ul class="skills">
+          <li data-edit="about.skills.0">品牌视觉</li>
+          <li data-edit="about.skills.1">编辑与排版</li>
+          <li data-edit="about.skills.2">包装设计</li>
+          <li data-edit="about.skills.3">插画</li>
+          <li data-edit="about.skills.4">界面设计</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <div class="contact-panel">
+        <p class="eyebrow light" data-edit="labels.contactEyebrow">Contact</p>
+        <h2 class="contact-title" data-edit="contact.title">有项目想聊聊？</h2>
+        <p class="contact-desc" data-edit="contact.desc">我目前接受品牌视觉、出版物与展览相关的合作邀约，通常会在两个工作日内回复。</p>
+        <a class="mail" data-edit="contact.email" data-mail="1" href="mailto:hello@linzhiyuan.design">hello@linzhiyuan.design</a>
+        <div class="contact-links">
+          <a href="https://www.zcool.com.cn" target="_blank" rel="noopener" data-edit="contact.links.0.label" data-href="contact.links.0.href">站酷</a>
+          <a href="https://www.behance.net" target="_blank" rel="noopener" data-edit="contact.links.1.label" data-href="contact.links.1.href">Behance</a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener" data-edit="contact.links.2.label" data-href="contact.links.2.href">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p data-edit="footer.text">© 2026 林知远 · 保留所有权利</p>
+    <p class="footer-note" data-edit="footer.note">点击右上角「编辑内容」即可修改文字与作品封面</p>
+  </div>
+</footer>
+
+<!-- 编辑模式工具条 -->
+<div class="editor-bar" id="editorBar" hidden>
+  <span class="editor-hint"><b>编辑模式</b>点击任意文字直接改写</span>
+  <div class="editor-actions">
+    <button type="button" data-cmd="add">添加作品</button>
+    <button type="button" data-cmd="export">导出</button>
+    <button type="button" data-cmd="import">导入</button>
+    <button type="button" data-cmd="reset">重置</button>
+    <button type="button" class="primary" data-cmd="done">完成</button>
+  </div>
+</div>
+
+<!-- 图片放大 -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" type="button" aria-label="关闭">×</button>
+  <img id="lightboxImg" alt="">
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<input type="file" id="imageInput" accept="image/*" hidden>
+<input type="file" id="jsonInput" accept="application/json,.json" hidden>
+
+<script src="app.js"></script>
+</body>
+</html>
